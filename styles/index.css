@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #4361EE;
+}
+
+header {
+    height: 25rem;
+    background-image: url(../imgs/andy-baseball-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-position: center;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-container img {
+    width: 300px;
+    height: auto;
+}
+
+.left-box {
+    position: absolute;
+    left: 40px;
+    top: 200px;;
+}
+
+button {
+    background: none;
+    border: 2px solid blue;
+}
+
+button:hover,
+button:focus {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.right-box {
+    width: 50%;
+}
+
+.directory {
+    text-align: center;
+}
+
+.bdr {
+    border: 2px solid green;
+}
+
