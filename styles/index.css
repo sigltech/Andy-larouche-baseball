@@ -19,6 +19,16 @@ header {
     background-position: center;
 }
 
+header h1 {
+    position: absolute;
+    font-size: 96px;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    top: 150px;
+    left: 480px;
+}
+
 .flex-box {
     display: flex;
     justify-content: space-between;
@@ -38,6 +48,7 @@ header {
 button {
     margin: 5rem;
     border-radius: 50%;
+    /* box-shadow: -0.5px 1px 4px 4px; */
 }
 
 button.button {
@@ -46,12 +57,14 @@ button.button {
 
 button:hover,
 button:focus {
-    background: rgba(255, 255, 255, 0.5);
+    /* background: rgba(0, 7, 148, 0.5); */
+    color: #fff;
 }
 
 button a {
     text-decoration: none;
     font-size: 45px;
+    color: #000;
 
 }
 
