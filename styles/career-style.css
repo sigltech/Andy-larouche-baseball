@@ -25,6 +25,11 @@ section > div{
     padding: 20px;
     margin: 10px;
 }
+
+section > div::before{
+    content: "Team: ";
+}
+
 #career-stats{
     background-color:red;
     width: 50vw;
