@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+}
+
+#career-title{
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+    height: 250px;
+    text-align: center;
+    background-image: url("/img/banner-img.jpg");
+    background-repeat: no-repeat;
+    background-position: 10% 85%;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#career-title h1{
+    font-size: 100px;
+}
+
+section > div{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+section > div::before{
+    content: "Team: ";
+}
+
+#career-stats{
+    background-color:red;
+    width: 50vw;
+}
+
+#career-stats table{
+    justify-content: center;
+    width: 70vw;
+    margin-bottom: 20px;
+}
+
+#career-stats table tr > td{
+    padding: 10px 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#career-stats table tr > th{
+    background-color: rgb(94, 94, 94);
+    text-align: center; 
+}
