@@ -1,9 +1,14 @@
 * {
     box-sizing: border-box;
+    cursor: url(../imgs/baseball-bat.png) 10 10,auto;
 }
 
 body {
     background: #4361EE;
+}
+
+.body-container {
+    padding: 0;
 }
 
 header {
@@ -16,7 +21,7 @@ header {
 
 .flex-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .body-container img {
@@ -31,8 +36,12 @@ header {
 }
 
 button {
-    background: none;
-    border: 2px solid blue;
+    margin: 5rem;
+    border-radius: 50%;
+}
+
+button.button {
+    margin: 2rem;
 }
 
 button:hover,
@@ -42,19 +51,28 @@ button:focus {
 
 button a {
     text-decoration: none;
-    color: #000;
+    font-size: 45px;
 
 }
 
 .right-box {
-    width: 50%;
+    top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80%;
+    left: 300px;
+    margin: 0;
 }
 
 .directory {
+    
     text-align: center;
-}
-
-.bdr {
-    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
 }
 
