@@ -8,9 +8,9 @@ body{
     font-weight: bolder;
     height: 250px;
     text-align: center;
-    background-image: url("/img/banner-img.jpg");
+    background-image: url("/imgs/andy-baseball-1.jpg");
     background-repeat: no-repeat;
-    background-position: 10% 85%;
+    background-position: 10% 20%;
     background-size: cover;
     opacity: 0.8;
 }
@@ -45,6 +45,11 @@ section > div::before{
     padding: 10px 10px;
     background-color: white;
     border: 1px solid black;
+    text-align: center;
+}
+
+#career-stats table tr > td:first-child{
+    font-weight: bold;
 }
 
 #career-stats table tr > th{
