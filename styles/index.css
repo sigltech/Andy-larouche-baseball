@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    cursor: url(../imgs/baseball-bat.png) 10 10,auto;
+}
+
+body {
+    background: #4361EE;
+}
+
+.body-container {
+    padding: 0;
+}
+
+header {
+    height: 25rem;
+    background-image: url(../imgs/andy-baseball-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-position: center;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-container img {
+    width: 300px;
+    height: auto;
+}
+
+.left-box {
+    position: absolute;
+    left: 40px;
+    top: 200px;;
+}
+
+button {
+    margin: 5rem;
+    border-radius: 50%;
+}
+
+button.button {
+    margin: 2rem;
+}
+
+button:hover,
+button:focus {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+button a {
+    text-decoration: none;
+    font-size: 45px;
+
+}
+
+.right-box {
+    top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80%;
+    left: 300px;
+    margin: 0;
+}
+
+.directory {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
