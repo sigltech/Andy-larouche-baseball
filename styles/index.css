@@ -47,18 +47,20 @@ header h1 {
 
 button {
     margin: 5rem;
-    border-radius: 50%;
+    border-radius: 80%;
     /* box-shadow: -0.5px 1px 4px 4px; */
 }
 
-button.button {
+button.button-nav {
     margin: 2rem;
+    padding: 2rem;
+    border-radius: 10%;
 }
 
 button:hover,
 button:focus {
     /* background: rgba(0, 7, 148, 0.5); */
-    color: #fff;
+    color: green;
 }
 
 button a {
@@ -69,7 +71,7 @@ button a {
 }
 
 .right-box {
-    top: 100px;
+    top: 60px;
     position: relative;
     display: flex;
     flex-direction: column-reverse;
