@@ -1,9 +1,13 @@
 body{
-    background-color: gray;
+    background-color: white;
+}
+
+nav a{
+    margin-left: 5%;
 }
 
 #career-title{
-    margin-top: 20px;
+    margin-top: 0px;
     color: black;
     font-weight: bolder;
     height: 250px;
@@ -24,6 +28,7 @@ section > div{
     border-radius: 20px;
     padding: 20px;
     margin: 10px;
+    border: solid black 2px;
 }
 
 section > div::before{
@@ -31,12 +36,11 @@ section > div::before{
 }
 
 #career-stats{
-    background-color:red;
-    width: 50vw;
+    display: flex;
+    justify-content: center;
 }
 
 #career-stats table{
-    justify-content: center;
     width: 70vw;
     margin-bottom: 20px;
 }
@@ -53,6 +57,7 @@ section > div::before{
 }
 
 #career-stats table tr > th{
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(24, 24, 24);
+    color: white;
     text-align: center; 
 }
